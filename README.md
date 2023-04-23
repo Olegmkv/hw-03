@@ -1,2 +1,2 @@
-# hw-02
-home work 02 kurse GoIT
+# hw-03
+home work 03 kurse GoIT
