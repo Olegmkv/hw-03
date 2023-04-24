@@ -48,9 +48,7 @@ body {
 
 .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-
+    padding: 0 15px;
     margin: 0 auto;
 
     outline: 2px solid tomato;
@@ -74,6 +72,7 @@ body {
 }
 
 .logo {
+    margin-right: 76px;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -89,7 +88,6 @@ body {
 
 .head-list {
     display: flex;
-    margin-left: 76px;
 }
 
 .head-list .item:not(:last-child) {
