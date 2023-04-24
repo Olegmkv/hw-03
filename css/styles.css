@@ -265,19 +265,21 @@ body {
 .team-list .item {
     width: calc((100% - 72px) / 4);
     background-color: var(--primary-fon-color);
-
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
 }
 
 .team-card {
     padding: 32px 16px;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+
     color: var(--second-color);
+
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-card>h3 {
@@ -333,22 +335,21 @@ body {
 }
 
 .works-list .item {
-    /*width: 360px;*/
-    width: calc((100% - 54px) / 3);
-    /*  min-height: 420;*/
+    width: calc ((100% - 48px) / 3);
 
-    background-color: var(--primary-fon-color);
-    border: 1px solid #E7E9FC
 }
 
 .works-info {
     padding: 32px 16px;
+
     border: 1px solid var(--secondary-fon-color);
+    border-top: none;
+
     background-color: var(--primary-fon-color)
 }
 
 .works-info>h2 {
-    margin-bottom: 18px;
+    margin-bottom: 8px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
