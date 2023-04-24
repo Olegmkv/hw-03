@@ -8,16 +8,6 @@
     --button-accent-color: #404bbf;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-
-    color: var(--primary-text-color);
-    background-color: var(--primary-fon-color);
-}
 
 h1,
 h2,
@@ -31,6 +21,10 @@ p {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 .list {
     list-style: none;
 }
@@ -41,19 +35,32 @@ p {
     color: var(--second-color);
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--primary-text-color);
+    background-color: var(--primary-fon-color);
+}
 
 .container {
-    width: 1152px;
-    padding-left: 12px;
-    padding-right: 12px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
 
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 
-    /*   outline: 2px solid tomato; */
+    outline: 2px solid tomato;
 }
 
 .header {
+    border-bottom: 1px solid var(--secondary-fon-color)
+}
+
+.header-flex {
     display: flex;
     justify-content: space-between;
 }
