@@ -173,7 +173,7 @@ body {
     min-width: 169px;
     height: 56px;
     border: none;
-    /*border-radius: 4px;*/
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -186,12 +186,16 @@ body {
 /*Advantages*/
 
 .advantages {
-    margin-bottom: 120px;
+    padding: 120px 0;
 }
 
 .advant-list {
     display: flex;
-    justify-content: space-between;
+    /* gap: 24px; */
+}
+
+.advant-list .item:not(:last-child) {
+    margin-right: 24px;
 }
 
 .advant-head {
@@ -213,7 +217,7 @@ body {
 /*Product*/
 
 .product {
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .product-head,
