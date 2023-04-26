@@ -36,6 +36,7 @@ img {
     color: var(--second-color);
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -45,6 +46,19 @@ body {
 
     color: var(--primary-text-color);
     background-color: var(--primary-fon-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .container {
@@ -301,14 +315,13 @@ body {
     padding-top: 96px;
     padding-bottom: 120px;
 
-    background-color: var(--primary-fon-color);
 }
 
 .filter-list {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin: 72px;
+    margin-bottom: 72px;
 }
 
 .filter-btn {
@@ -354,25 +367,22 @@ body {
     border: 1px solid var(--secondary-fon-color);
     border-top: none;
 
-    background-color: var(--primary-fon-color)
 }
 
-.works-info>h2 {
+.works-info-head {
     margin-bottom: 8px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 
     color: var(--primary-text-color);
 }
 
-.works-info>p {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+.works-info-text {
+
+    font-size: 16px;
+    line-height: 1.5;
 
     color: var(--second-color);
 }
@@ -389,7 +399,6 @@ body {
 
 .logo-footer {
     display: inline-block;
-    margin-bottom: 16px;
 
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
